@@ -7,8 +7,8 @@ Important commands use to preprocess the following:
 2. ATACseq data for HSCs
 3. EMseq data for HSCs
 
-### Figures_Rscripts
-Rscripts used to generate main figures.
+### Figures_Scripts
+Scripts used to generate main figures.
 RNA-seq, EM-seq and ATAC-seq data are available at Gene Expression Omnibus (GSE335321).
 
 ### Data Sources for Figure 1
