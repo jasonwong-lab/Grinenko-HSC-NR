@@ -20,6 +20,7 @@ library(stringr)
 ### ---- Calling DARs ---- ###
 
 ## DiffBind processing ##
+# Replace the example file names below with the corresponding outputs from preprocessing_commands.sh.
 samples <- data.frame(
   SampleID = c("S1", "S2", "S3", "S4", "S5"),
   Condition = c("CTRL", "CTRL", "CTRL", "NR", "NR"),
@@ -327,6 +328,7 @@ read_homer_known <- function(path) {
     )
 }
 
+# Replace the example paths below with the corresponding outputs from preprocessing_commands.sh.
 known_ctrl <- read_homer_known("path/to/homer_output/ctrl")
 known_nr <- read_homer_known("path/to/homer_output/nr")
 
