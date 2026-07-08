@@ -141,7 +141,7 @@ trimmed_dir=/path/to/output/trimmed
 
 ## Trim Galore paired-end adapter trimming and quality filtering
 
-~/tools/TrimGalore-0.6.10/trim_galore \
+trim_galore \
   --paired \
   --clip_R1 10 --clip_R2 10 \
   --three_prime_clip_R1 10 --three_prime_clip_R2 10 \
@@ -158,7 +158,7 @@ $genome_folder=/path/to/BismarkGenome
 $aligned_dir=/path/to/output/aligned
 $tmp_dir=/path/to/tmp
 
-./tools/Bismark-0.24.2/bismark
+bismark \
   --temp_dir $tmp_dir \
   --bowtie2 \
   --bam \
@@ -172,7 +172,7 @@ $tmp_dir=/path/to/tmp
 ## Bismark methylation extraction
 $methylation_dir=/path/to/output/methylation
 
-./tools/Bismark-0.24.2/bismark_methylation_extractor \
+bismark_methylation_extractor \
   -p --parallel $THREADS \
   --cytosine_report \
   --bedGraph \
