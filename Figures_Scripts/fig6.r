@@ -22,7 +22,9 @@ library(SummarizedExperiment)
 library(rtracklayer)
 
 ### ---- Differential Expression Analysis ---- ###
-rnaseq_dir <- "/path/to/output/final/${PREFIX}.sorted.bam"
+# Replace this path with the directory containing the final sorted BAM files produced by preprocessing_commands.sh. 
+# This script assumes preprocessing_commands.sh has completed successfully and generated a ${PREFIX}.sorted.bam file for each sample.
+rnaseq_dir <- "/path/to/output/final/"
 rnaseq_cd_list <- system(paste0("ls ", rnaseq_dir, "*.sorted.bam"), intern = TRUE)
 bams_cd <- BamFileList(rnaseq_cd_list)
 
