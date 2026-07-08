@@ -7,9 +7,14 @@ Important commands use to preprocess the following:
 2. ATACseq data for HSCs
 3. EMseq data for HSCs
 
+All ATAC-seq, EM-seq, and RNA-seq raw data are deposited in Gene Expression Omnibus under the accession number GSE335321. 
+
 ### Figures_Scripts
 Scripts used to generate main figures.
-RNA-seq, EM-seq and ATAC-seq data are available at Gene Expression Omnibus (GSE335321).
+
+### Data sources for fig2.R — fig6.R
+**All input files** required by the figure-generation R scripts are produced by preprocessing_commands.sh from the raw data in GSE335321. Run preprocessing_commands.sh first, then execute the R scripts using the generated outputs.
+All reference files needed to run these scripts are highlighted in the section below. 
 
 ### Data Sources for Figure 1
 This script uses publicly available datasets from the following studies:
@@ -26,7 +31,6 @@ This script uses publicly available datasets from the following studies:
 - **Required supplementary file:** Supplementary Table S2 (differential peak calling results) `21598290cd181474-sup-213895_2_supp_5514125_pr2m22.xlsx`
 - **ChIP-seq data:** GEO Series **GSE104408**.
 - Adelman ER, Huang HT, Roisman A, Olsson A, Colaprico A, Qin T, Lindsley RC, Bejar R, Salomonis N, Grimes HL, Figueroa ME. (2019). Aging Human Hematopoietic Stem Cells Manifest Profound Epigenetic Reprogramming of Enhancers That May Predispose to Leukemia. Cancer Discovery, 9(8), 1080–1101. https://doi.org/10.1158/2159-8290.CD-18-1474
-
 
 ### Reference files
 The following reference files are required by one or more scripts in this repository.
