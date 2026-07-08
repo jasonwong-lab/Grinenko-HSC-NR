@@ -43,7 +43,7 @@ The following reference files are required by one or more scripts in this reposi
 | `cpgIslandExt.txt.gz` | UCSC CpG island annotation for mm10 | UCSC Table Browser | 
 | `hg38.chrom.sizes` | UCSC utilities | UCSC Genome Browser |
 | `reMap2022.bb` | reMap 2022 transcriptional regulator binding site annotations | reMap 2022 database |
-| `ncbiRefSeqSelect.noBin.txt` | UCSC RefSeq Select table for genomic feature annotation | UCSC Table Browser |
+| `ncbiRefSeqSelect.noBin.gtf` | UCSC RefSeq Select table for genomic feature annotation | UCSC Table Browser |
 | `Enhancers.xls` | Enhancer annotation derived from published HSC chromatin state maps | Lara-Astiaso D, Weiner A, Lorenzo-Vivas E, *et al.* (2014). **Chromatin state dynamics during blood formation.** *Science* 345(6199):943–949. DOI: 10.1126/science.1256271. Enhancer annotations were obtained from Supplementary Table `1256271tables1.xls` |
 
 ### Notes on Usage for fig1.R and fig1.sh
