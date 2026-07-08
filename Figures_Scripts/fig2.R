@@ -17,7 +17,10 @@ library(circlize)
 
 
 ### ---- Differential Expression Analysis ---- ###
-rnaseq_dir <- "/path/to/output/final/${PREFIX}.sorted.bam"
+# Replace this path with the directory containing the final sorted BAM files produced by preprocessing.sh. 
+# This script assumes preprocessing.sh has completed successfully and generated a ${PREFIX}.sorted.bam file for each sample.
+rnaseq_dir <- "/path/to/output/final/"
+
 rnaseq_list <- list.files(
   rnaseq_dir,
   pattern = "*.sorted.bam$",
