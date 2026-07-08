@@ -73,6 +73,7 @@ tfs <- rtracklayer::import("reMap2022.bb")
 tfs <- tfs %>% plyranges::filter(seqnames %in% standard_chr)
 
 ## Overlaps and coverage filtering ##
+# Replace the example path names below with the corresponding outputs from preprocessing_commands.sh.
 methyl_files <- list.files("path/to/bismarck/", pattern="\\.CpG_report\\.txt\\.gz$", full.names=TRUE)
 
 methyl <- lapply(methyl_files, function(f) {
