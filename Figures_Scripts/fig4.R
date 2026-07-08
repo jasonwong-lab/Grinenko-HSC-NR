@@ -80,7 +80,10 @@ closed_dars <- dars_df %>%
 ### ---- Annotating DARs ---- ###
 
 ## Load gene model ##
-txdb <- loadDb("TxDb.mm10.RefSeqSelect.sqlite")
+txdb <- makeTxDbFromGFF(
+    "ncbiRefSeqSelect.noBin.gtf",
+    format = "gtf"
+)
 
 ## Annotate open and closed DARs ##
 peakAnno_open <- annotatePeak(
