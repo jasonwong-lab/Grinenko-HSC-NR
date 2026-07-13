@@ -102,3 +102,76 @@ Supported pathways:
 * `WP_TCELL_RECEPTOR_SIGNALING`
 
 The generated BED files are used as input for `fig1.sh` to generate the profile plots (Supplementary Figure 1c–d).
+
+
+## Software requirements
+
+The analyses were run on the following system:
+
+| Component | Version |
+|---|---:|
+| Operating system | Rocky Linux 8.10 (Green Obsidian) |
+| R | 4.0.3 |
+| Bioconductor | 3.12 |
+
+### Command-line software
+
+| Software | Version |
+|---|---:|
+| fastp | 0.24.2 |
+| Trim Galore | 0.6.10 |
+| Cutadapt | 4.9 |
+| Bismark | 0.24.2 |
+| Bowtie2 | 2.5.4 |
+| STAR | 2.7.11b |
+| samtools | 1.3.1 |
+| HTSlib | 1.3.1 |
+| sambamba | 1.0.1 |
+| MACS2 | 2.2.9.1 |
+| HOMER | 5.1 |
+| deepTools | 3.5.1 |
+| UCSC bedGraphToBigWig | 2.10 |
+| UCSC bigWigMerge | 2 |
+
+### R packages
+
+| Package | Version |
+|---|---:|
+| AnnotationDbi | 1.70.0 |
+| AnnotationHub | 3.16.1 |
+| BiocParallel | 1.24.1 |
+| ChIPseeker | 1.26.2 |
+| circlize | 0.4.16 |
+| clusterProfiler | 3.18.1 |
+| ComplexHeatmap | 2.6.2 |
+| data.table | 1.15.2 |
+| DESeq2 | 1.30.1 |
+| DiffBind | 3.0.15 |
+| DSS | 2.38.0 |
+| dplyr | 1.1.4 |
+| enrichplot | 1.10.2 |
+| extrafont | 0.20 |
+| forcats | 1.0.0 |
+| GenomicAlignments | 1.26.0 |
+| GenomicFeatures | 1.42.3 |
+| GenomicRanges | 1.42.0 |
+| ggalt | 0.6.1 |
+| ggplot2 | 3.5.0 |
+| ggrepel | 0.9.5 |
+| ggsci | 3.2.0 |
+| ggsignif | 0.6.4 |
+| matrixStats | 1.2.0 |
+| patchwork | 1.2.0 |
+| pheatmap | 1.0.13 |
+| plyranges | 1.10.0 |
+| purrr | 1.0.2 |
+| RColorBrewer | 1.1.3 |
+| readr | 2.1.6 |
+| readxl | 1.4.5 |
+| Rsamtools | 2.6.0 |
+| rtracklayer | 1.50.0 |
+| stringr | 1.5.1 |
+| SummarizedExperiment | 1.20.0 |
+| tibble | 3.3.1 |
+| tidyr | 1.3.1 |
+| trekcolors | 0.2.0 |
