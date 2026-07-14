@@ -175,3 +175,26 @@ The analyses were run on the following system:
 | tibble | 3.3.1 |
 | tidyr | 1.3.1 |
 | trekcolors | 0.2.0 |
+
+
+### Separate environment used for `fig1.R`
+
+The `fig1.R` script was run separately using a different R environment from the rest of the analysis.
+
+| Component | Version |
+|---|---:|
+| Operating system | macOS (`darwin20`) |
+| R | 4.5.2 |
+
+The following R package versions were used:
+
+| Package | Version |
+|---|---:|
+| readxl | 1.5.0 |
+| dplyr | 1.2.1 |
+| msigdbr | 24.1.0 |
+| clusterProfiler | 4.18.4 |
+| enrichplot | 1.30.5 |
+| ggplot2 | 4.0.3 |
+| stringr | 1.6.0 |
+| patchwork | 1.3.2 |
